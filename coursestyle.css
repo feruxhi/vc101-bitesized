@@ -114,11 +114,11 @@ header nav ul li a {
 
 .syllabus-outline h2 {
     font-size: 1.3rem;
-    color: #000;
+    color: #81DDE3;
     font-family: 'Asap';
     line-height: 25px;
     margin: 10px 0 20px 0px;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #F5E97A;
     width: min-content;
 }
 
@@ -128,6 +128,7 @@ header nav ul li a {
     font-family: 'Asap';
     font-size: 1rem;
     margin-bottom: 10px;
+    color: rgb(88, 112, 136);
 }
 
 .data-content {
@@ -145,7 +146,7 @@ header nav ul li a {
 
 .data-content p {
     font-family: 'Asap', sans-serif;
-    color: rgb(88, 112, 136);
+    color: rgb(34, 33, 33);
     float: left;
     left: 77px;
     margin-top: 20px;
@@ -171,14 +172,14 @@ header nav ul li a {
 
 .fa-chevron-left,
 .fa-chevron-right {
-    color: orange;
+    color: #EDD34A;
     font-size: 2rem;
     transition: all .3s;
 }
 
 .left:hover .fa-chevron-left,
 .right:hover .fa-chevron-right {
-    color: rgb(190, 110, 17);
+    color: #F5E97A;
     cursor: pointer;
 }
 

@@ -27,8 +27,8 @@
     font-size: 16px;
     font-family: 'Asap';
     padding: 10px 16px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(22, 82, 240);
+    color: #94757E;
+    background-color: #F5E97A;
     border-width: 1px;
     border-style: solid;
     border-color: transparent;
@@ -41,7 +41,6 @@
     border-radius: 4px;
     transition: all 1000ms;
 }
-
 
 
 /* INDEX PAGE */
@@ -116,12 +115,15 @@ main {
 
 .landing-box h1,
 .landing-box h2 {
-    font-size: 54px;
     font-family: 'Asap';
-    font-weight: 100;
-    color: rgb(17, 51, 85);
+    font-size: 54px;
+    color: #81DDE3;
     line-height: 64px;
     margin: 13px 0px;
+}
+
+.landing-box h1 {
+    font-weight: 100;
 }
 
 .landing-box h2 {
@@ -129,7 +131,7 @@ main {
 }
 
 .landing-box p {
-    color: rgb(88, 112, 136);
+    color: rgb(34, 33, 33);
     line-height: 24px;
     font-size: 16px;
     font-family: 'Asap';
@@ -145,7 +147,7 @@ main {
 }
 
 .landing-box a:hover {
-    background-color: rgb(18, 72, 209);
+    background-color: #EDD34A;
 }
 
 .lesson-box {
@@ -157,13 +159,12 @@ main {
     font-size: 40px;
     font-weight: 400;
     font-family: 'Asap';
-    color: rgb(17, 51, 85);
+    color: #81DDE3;
     line-height: 64px;
 }
 
 .lesson-box p {
-    width: 800px;
-    color: rgb(88, 112, 136);
+    color: rgb(34, 33, 33);
     line-height: 24px;
     font-size: 1rem;
     font-family: 'Asap';
@@ -181,7 +182,7 @@ main {
     grid-template: 
     "img lesson-content" min-content
     "img a" auto / 1fr 1fr;
-    width: 85%;
+    width: 100%;
     height: auto;
     border-width: 1px;
     border-style: solid;
@@ -203,12 +204,12 @@ main {
 
 .lesson-one .lesson-content {
     grid-area: lesson-content;
-    margin-left: 16px;
-    margin-top: 32px;
+    margin-left: 1rem;
+    margin-top: 2rem;
 }
 
 .lesson-one h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 900;
     color: #000;
     font-family: 'Asap';
@@ -218,8 +219,8 @@ main {
     font-size: 1rem;
     color: rgb(88, 112, 136);
     font-family: 'Asap';
-    width: 85%;
     margin-top: 10px;
+    margin-right: 1rem;
 }
 
 .lesson-one a {
@@ -237,7 +238,7 @@ main {
 }
 
 .lesson-one a:hover {
-    background-color: rgb(18, 72, 209);
+    background-color: #EDD34A;
 }
 
 
