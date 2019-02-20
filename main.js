@@ -8,28 +8,28 @@ $('#get-started').on('click', function () {
 });
 
 
-// Fetch data for the course page
+// Fetch data for the course page from Google spreadsheet
 function init() {
     Tabletop.init({
         key: 'https://docs.google.com/spreadsheets/d/121xBU8bEERskqbCZMC6eZ0X21Khg8o9nJbSCCKEtyuI/pubhtml',
         callback: function (data, tabletop) {
             console.log(data)
             index = function (i) {
-                var out = document.getElementById('post');
-                var testgif = document.getElementById('gif');
+                var post = document.getElementById('post');
+                var gif = document.getElementById('gif');
 
-                out.innerHTML = data[i].content;
-                testgif.innerHTML = "<img src=" + data[i].img + " scrolling='no' class='gif'>";
+                post.innerHTML = data[i].content;
+                gif.innerHTML = "<img src=" + data[i].img + " scrolling='no' class='gif'>";
                 return {
                     prev: function () {
                         i && i--;
-                        out.innerHTML = data[i].content;
-                        testgif.innerHTML = "<img src=" + data[i].img + " scrolling='no' class='gif'>";
+                        post.innerHTML = data[i].content;
+                        gif.innerHTML = "<img src=" + data[i].img + " scrolling='no' class='gif'>";
                     },
                     next: function () {
                         i + 1 < data.length && i++;
-                        out.innerHTML = data[i].content;
-                        testgif.innerHTML = "<img src=" + data[i].img + " scrolling='no' class='gif'>";
+                        post.innerHTML = data[i].content;
+                        gif.innerHTML = "<img src=" + data[i].img + " scrolling='no' class='gif'>";
                     }
                 }
             }(0);
