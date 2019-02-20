@@ -50,15 +50,15 @@ header {
     top: 0;
     z-index: 1;
     background-color: #fff;
-    width: 100%;
+    max-width: 960px; /* Same as main */
     height: 80px;
+    margin: 0 auto;
 }
 
 header .header-brand {
     display: block;
     margin-top: 21px;
     margin-bottom: 31px;
-    margin-left: 157px;
     padding: 0px 20px 0px 40px;
     border-right: 1px solid rgb(88, 112, 136);
     float: left;
@@ -92,7 +92,10 @@ header nav ul li a {
 
 main {
     padding-top: 100px;
-    margin-left: 200px;
+    max-width: 960px; /* 960 looks ok on laptops and wide desktops */
+    margin: 0 auto; /* horizontally center this div */
+    padding-left: 40px; /* If the screen width is less than 960, this gives a bit of space */
+    padding-right: 40px;
 }
 
 .landing-box {
@@ -279,12 +282,8 @@ footer ul li a {
 
 /* MEDIA QUERIES */
 
-/* Large Mobile Screen */
-@media only screen and (max-width: 580px) {
-    
-    header .header-brand {
-        margin-left: 10px;
-    }
+/* Phablets / Large Mobile Screen */
+@media only screen and (max-width: 780px) {
     
     header img {
         width: 40px;
@@ -301,7 +300,6 @@ footer ul li a {
 
     main {
         padding-top: 80px;
-        margin-left: 50px;
     }
     
     .landing-box img {
