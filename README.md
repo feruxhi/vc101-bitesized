@@ -14,4 +14,6 @@ Hosted on GitHub Pages: https://vyyyy.github.io/vc101-bitesized/
 
 ## Version 2
 
-Hosted on VC101 site: https://app.vc101.team
+Hosted on Netlify: https://v2-vc101-bitesized.netlify.com
+
+See: https://github.com/vyyyy/v2-vc101-bitesized
