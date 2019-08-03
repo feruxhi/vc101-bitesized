@@ -8,7 +8,7 @@ Solution: I wrote the content and built the v1 for a web app.
 
 ## Version 1
 
-Hosted on Netlify: https://vc101-bitesized.netlify.com
+Hosted on Netlify: https://v1-vc101-bitesized.netlify.com
 
 Hosted on GitHub Pages: https://vyyyy.github.io/vc101-bitesized/
 
